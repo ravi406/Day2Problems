@@ -5,10 +5,10 @@ import java.util.Scanner;
 public class DigitToNumbers {
 
 	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
+		Scanner scanner = new Scanner(System.in);
 
 		System.out.println("Enter a Single Digit Number :");
-		int num = sc.nextInt();
+		int num = scanner.nextInt();
 
 		switch (num) {
 		case 0:
